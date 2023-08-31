@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+
+#id {
+    width: auto;
+}
+
+.container-1 {
+    display: flex;
+    /*align-items: flex-start;*/
+    flex-direction: column;
+}
+
+.container-1 div {
+    padding: 10px;
+    border: 1px solid silver;
+}
+
+.box-1 {
+    background-color: azure;
+    flex: 2;
+    order: 1;
+    font-family: 'Playfair Display', serif
+}
+
+.box-2 {
+    background-color: azure;
+    flex: 2;
+    order: 2;
+    font-family: 'Playfair Display', serif
+}
+
+.box-3 {
+    background-color: azure;
+    flex: 1;
+    order: 3;
+    font-family: 'Playfair Display', serif
+}
+
+.box-4 {
+    background-color: azure;
+    order: 4;
+}
